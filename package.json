@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": "https://github.com/swaggerloaf/react-seedling-basic",
   "dependencies": {
-    "@babel/polyfill": "next",
+    "@babel/runtime":"7.3.4",
     "prop-types": "next",
     "react": "next",
     "react-dom": "next"
