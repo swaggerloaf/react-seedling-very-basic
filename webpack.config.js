@@ -26,12 +26,27 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
       },
-      {
-        test: /\.scss$/,
+       {
+        test: /\.(scss)$/,
         use: [
-          'style-loader', // creates style nodes from JS strings
-          'css-loader', // translates CSS into CommonJS
-          'sass-loader' // compiles Sass to CSS, using Node Sass by default
+          {
+            loader: 'style-loader' // inject CSS to page
+          },
+          {
+            loader: 'css-loader' // translates CSS into CommonJS modules
+          },
+          {
+            loader: 'postcss-loader', // Run post css actions
+            options: {
+              plugins: function() {
+                // post css plugins, can be exported to postcss.config.js
+                return [require('precss'), require('autoprefixer')];
+              }
+            }
+          },
+          {
+            loader: 'sass-loader' // compiles Sass to CSS
+          }
         ]
       },
       {
