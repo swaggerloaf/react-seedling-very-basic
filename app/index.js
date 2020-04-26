@@ -1,8 +1,8 @@
-import * as React from "react";
-import ReactDom from "react-dom";
-import * as styles from "./styles";
+import * as React from 'react';
+import ReactDom from 'react-dom';
+import './stylesheets/main.scss';
 
 ReactDom.render(
-  <div style={{ color: "red" }}>Wow</div>,
-  document.getElementById("mountNode")
+  <div className="text-light">Wow</div>,
+  document.getElementById('mountNode')
 );

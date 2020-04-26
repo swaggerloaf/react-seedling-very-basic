@@ -1,1 +1,0 @@
-require("./stylesheets/main.scss");
