@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": "https://github.com/swaggerloaf/react-seedling-basic",
   "dependencies": {
-    "@babel/runtime": "7.9.2",
-    "prop-types": "next",
-    "react": "next",
-    "react-dom": "next"
+    "@babel/runtime": "^7.9.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
@@ -43,7 +43,7 @@
     "webpack-dev-server": "^3.10.3",
     "webpack-bundle-analyzer": "~3.7.0",
     "bootstrap": "^4.4.1",
-    "react-icons": "3.9.0"
+    "react-icons": "^3.9.0"
   },
   "engines": {
     "node": ">=10"
