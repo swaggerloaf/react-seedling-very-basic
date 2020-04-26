@@ -1,2 +1,3 @@
 # react-seedling-very-basic
-React started project that contains...... react ......
+
+React starter project for visual studio code that contains... react react-dom
