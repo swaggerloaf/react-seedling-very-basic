@@ -10,21 +10,25 @@
   "license": "MIT",
   "repository": "https://github.com/swaggerloaf/react-seedling-basic",
   "dependencies": {
-    "@babel/runtime": "^7.9.2",
+    "@babel/runtime": "^7.9.6",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "bootstrap": "^4.4.1",
+    "react-icons": "^3.10.0",
+    "redux": "4.0.5",
+    "react-redux": "7.2.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0",
+    "@babel/core": "~7.9.6",
     "@babel/plugin-proposal-class-properties": "~7.8.3",
     "@babel/plugin-syntax-dynamic-import": "~7.8.3",
-    "@babel/plugin-transform-runtime": "~7.9.0",
+    "@babel/plugin-transform-runtime": "~7.9.6",
     "@babel/preset-react": "~7.9.4",
     "@babel/register": "~7.9.0",
-    "@babel/preset-env": "~7.9.5",
+    "@babel/preset-env": "~7.9.6",
     "@types/react": "~16.9.34",
-    "@types/react-dom": "~16.9.6",
+    "@types/react-dom": "~16.9.7",
     "babel-eslint": "~10.1.0",
     "babel-loader": "^8.1.0",
     "css-loader": "~3.5.3",
@@ -33,17 +37,15 @@
     "autoprefixer": "^9.7.6",
     "node-sass": "~4.14.0",
     "sass-loader": "8.0.2",
-    "eslint": "~5.15.1",
-    "eslint-plugin-react-hooks": "~1.5.0",
+    "eslint": "~6.8.0",
+    "eslint-plugin-react-hooks": "4.0.0",
     "file-loader": "~3.0.1",
-    "prettier": "^1.16.4",
+    "prettier": "^2.0.5",
     "style-loader": "~0.23.1",
     "webpack": "~4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
-    "webpack-bundle-analyzer": "~3.7.0",
-    "bootstrap": "^4.4.1",
-    "react-icons": "^3.9.0"
+    "webpack-bundle-analyzer": "~3.7.0"
   },
   "engines": {
     "node": ">=10"
